@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(51, 71, 72);
+  color: #cdc7c7;
+}
+
+#imgResult {
+  width: 500px;
+  height: 375px;
+}

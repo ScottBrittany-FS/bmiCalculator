@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Exercise 07: Final Project</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h1>Body Mass Calculator</h1>
+    <h3>We can help you find your BMI with a few simple questions.</h3>
+
+    <form id="bmiCalculator">
+      <p>Type in height and weight, then press the button!</p>
+      <input
+        type="number"
+        id="heightFoot"
+        min="0"
+        max="8"
+        name="foot"
+        step="1"
+        required
+      /><label for="heightFoot" name="foot">Height (Feet)</label>
+      <br />
+      <input
+        type="number"
+        id="heightInches"
+        name="inches"
+        step="0.1"
+        min="0"
+        max="12"
+        required
+      /><label for="heightInches" name="inches">Height (Inches)</label>
+      <br />
+      <input
+        type="number"
+        id="weightLbs"
+        name="lbs"
+        step="0.1"
+        min="0"
+        max="1400"
+        required
+      /><label for="weightLbs" name="lbs">Weight in Lbs</label><br />
+      <button type="button" id="getBmi">Get BMI</button>
+    </form>
+    <h1 id="textResult"></h1>
+    <img src="" id="imgResult" />
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>

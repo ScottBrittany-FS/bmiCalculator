@@ -61,3 +61,5 @@ document.querySelector("#getBmi").addEventListener("click", function (e) {
   document.querySelector("#textResult").innerHTML = resultText;
   document.querySelector("#imgResult").src = resultIMG;
 });
+
+//pushing project to github
